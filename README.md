@@ -8,7 +8,7 @@
 ## 1. Visão 
 _Forneça uma declaração que resuma o problema que sendo resolvido pelo sistema. O seguinte formato pode ser usado._
 
-O problema de <descrição do problema> afeta os <interessados afetados pelo problema> cujo impacto é <qual o impacto do problema?>. Neste contexto, uma solução de sucesso resultaria em <benefícios chaves trazidos por essa solução>.
+No Brasil, apresentamos diversos grupos de adoções de animais mas não temos uma plataforma que junte elas. Há muitos grupos de facebook onde as pessoas postam animais para adoção. Nosso trabalho é prover uma plataforma de adoção de animais, uma vez que não existe uma em dominio brasileiro. Essa plataforma vem na forma deu site de adoção, onde a pessoa postara as informações do animal e localização, além de outras informações. Isso beneficiaria todos os grupos/ONG's e pessoas que buscam adotar um animal de estimação, pois existira uma plataforma que unificara todos os grupos em único lugar de pesquisa. 
 
 ## 2. Envolvidos
 _Forneça uma descrição dos papéis ou persona envolvidos ou interessados no projeto._
@@ -17,6 +17,7 @@ _Forneça uma descrição dos papéis ou persona envolvidos ou interessados no p
 | -------------             |:-------------:|
 | Doador  | Pessoa que ira anunciar animais para adoção |
 | Adotante  | Pessoa que procura animal para adotar |
+|ADM    | Pessoa que analisa os reports |
 
 ## 3. Product Backlog
 _O product backlog é basicamente uma lista priorizada de requisitos, estórias, features ou restrições. Coisas que o cliente ou usuário deseja descritas utilizando a terminologia do ambiente de negócios cliente ou usuário. Ele deverá conter no mínimo dez (20) estórias  de valor priorizadas pela sua importância._ 
