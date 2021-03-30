@@ -30,7 +30,7 @@ _O product backlog é basicamente uma lista priorizada de requisitos, estórias,
 | 5   | Barra de Pesquisa principal     | Importância | Como usuário, gostaria de poder pesquisar no site o tipo de animal que gostaria de adotar, ou filtrar por bairro/cidade   | 1- a barra de pesquisa deve aceitar somente caso de animal tipo/raça ; 2- Podera utilizar endereços para a pesquisa(nome de cidade/ bairro) | Link para o Protótipo de Baixa Fidelidade  |
 | 6 | Menu de pesquisa     | Importância | Como usuário, gostaria de aumentar os critérios de pesquisa do animal, como animal de porte pequeno ou filhote.  | 1-Deve ser uma pagina especifica de pesquisa avançada; 2- Deve ter um sub-menu das opções de filtro de busca; 3- Sub-Menu composto por check-box e uma barra para endereço(caso necessário) | Link para o Protótipo de Baixa Fidelidade  |
 | 7 | Nome do requisito      | Importância | Estória   | Critérios de Aceitação | Link para o Protótipo de Baixa Fidelidade  |
-
+| 8	| Avaliação do Doador    | Importância | Como usuario, gostaria de avaliar o doador com uma nota de 1 a 5. Para poder divulgar a comunidade de que o doador é confiavel |	1- no perfil do doador tera um campo que não pode ser auterado por ele; 2- Esse campo so sera acessado por adotantes que quiserem avaliar o doador	Link para o Protótipo de Baixa Fidelidade|
 
 
 
