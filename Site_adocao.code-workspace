@@ -3,6 +3,9 @@
 		{
 			"name": "Site-De-Adocao",
 			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\Codigos\\Desenvolvimento_WEB\\Primerio_projeto_Udemy"
 		}
 	],
 	"settings": {}
