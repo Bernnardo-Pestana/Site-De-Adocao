@@ -1,0 +1,236 @@
+/*UM MONTE DE COISA CONFUSA*/
+
+body {
+  font-family: sans-serif;
+  background-color: #A9A9A9 ;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Separator {
+  height: 75px;
+}
+.inputForm {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: 0px solid #eaeaea;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  outline: none;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 15px;
+  width: 150px;
+  max-width: auto;
+  padding-top: 0px;
+
+
+}
+
+.SRCH {
+  height: 100vh;
+  width: 275px;
+  background-color: #247f28;
+  transition: 0.5s;
+  line-height: 50px;
+  background-color: #247f28;
+  padding-left: 15px;
+  float: left;
+  position: fixed;
+}
+
+#ID {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 30px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-right: 0px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#srchBtn {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  margin-left: -4px !important;
+  width: 85px;
+  font-size: 14px;
+  padding: 0px;
+  padding-left: 15px;
+  transition: 0.2s;
+}
+
+#srchBtn:hover {
+  transition: 0.2s;
+  background-color: #76e87a;
+  padding: 0;
+}
+
+.inputTitle {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  height: 30px;
+  margin-right: -5px !important;
+  width: 125px;
+  font-size: 15px;
+  padding: 0;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.BTN {
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  border-radius: 10px;
+  background-color: #2be265;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.2s;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+#cadastroBtn {
+  width: 119px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  float: left;
+}
+
+#confirmBtn {
+  width: 119px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  float: left;
+}
+
+#gerarCadastro {
+  width: 135px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -5px;
+
+}
+
+.BTN:hover {
+  transition: 0.2s;
+  background-color: #2dc65e;
+}
+
+.BTN:active {
+  transition: 0.1s;
+  background-color: #68ff97;
+}
+
+.ficha {
+  float: left;
+  padding-left: 300px;
+  width: auto;
+}
+
+.ficha h1 {
+  color: white;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.Field {
+  display: inline;
+  overflow: auto;
+
+}
+.pronts{
+  color:white;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: grey;
+  padding: 0px;
+  padding-top: 10px;
+  padding-left:5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width: 450px;
+  top:100px;
+  float: right;
+}
+.pronts li{
+  word-break: break-word;
+}
+
+#resultado, #lista {
+  padding-left: 10px;
+  line-height:20px;
+}
+
+#lista {
+  float: left;
+
+}
+
+#srchBtn {
+  padding-left: 0px;
+}
+#texto{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login {
+  margin-left: 40vw;
+  margin-top: 15vh;
+}
+
+.FichaMedica {
+  opacity: 0;
+}
+#imagemMed
+{
+  margin-left: 57px;
+  filter: saturate(0.6) brightness(2);
+  margin-bottom: 10px;
+}
+#imagemPUC
+{
+  position: absolute;
+  margin:auto;
+  float: left;
+  top: 10px;
+  filter: saturate(3) brightness(2);
+
+}
