@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/master.js" charset="utf-8"></script>
+    <script src="js/enter.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body onload="Display(), Enters()">
+      <img id="imagemPUC" src="images\pucminaspoços.png" width="150px">
+      <div class="login">
+        <!--eu não quero usar form -->
+        <!--mock-up de login-->
+          <img id="imagemCao" src="images\caoo.jpg" width="200px">
+
+          <section class="">
+            <div class="criarsome">
+              <input type="submit" class="inputTitle" value="Usuário"disabled>
+              <input type="text" name="username" id="usernameField" value="" placeholder="Usuário" class="inputForm"><br>
+              <input type="submit" class="inputTitle" value="Senha"disabled>
+              <input type="password" name="senha" id="passwordField" value="" placeholder="Senha" class="inputForm"><br>
+              <input class="BTN" type="submit" onclick="sign_in()" id="signIn" value="Entrar"/>
+              <input class="BTN" type="submit" onclick= "location.href ='/cadastro_usuario'" id="singUp" value="Criar conta de Usuário"/>
+            </div>
+            
+
+          </section>
+
+      </div>
+      <input class="BTN" type="submit" onclick="Logout()" id="logoutBtn" value="Logout">
+        <div class="pronts">
+
+        </div>
+        <table>
+          <tr style="color: white" id="lista">
+          </tr>
+        </table>
+        <br>
+
+
+      </div>
+      </div>
+
+  </body>
+</html>

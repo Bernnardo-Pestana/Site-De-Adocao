@@ -1,0 +1,133 @@
+
+a { text-decoration: none; color: #ea4800;}
+
+a:hover {
+	cursor: pointer;
+	color: #000;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	line-height: 150%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-family: Tahoma;
+}
+
+h1 { font-size: 1.6em; }
+
+h1, h2, h3, h4, h5, p, ul { margin: 0 0 10px 0; }
+
+h2 { font-size: 1.6em; }
+
+h3 { font-size: 1.4em; }
+
+h4 { font-size: 1.2em; text-transform: uppercase; }
+
+ul li { margin-left: 15px; margin-bottom: 5px; }
+
+.button {
+	padding: 2px 8px;
+	border: 1px solid #4CAF50;
+	background: url(../images/but-bg.gif) repeat-x center #4CAF50;
+	font-variant: small-caps;
+	color: #4CAF50;
+}
+
+.clr { clear: both; }
+
+.inputbox {
+	border: 1px solid #4CAF50;
+	padding: 3px 2px;
+	background: #4CAF50;
+}
+
+.black {
+	color: #000;
+}
+
+.b {
+	font-weight: bold;
+}
+
+.white {
+	color: #fff;
+}
+
+.f13 {
+	font-size: 13px;
+}
+
+.red {
+	color: #990d0c;
+}
+
+.orange {
+	background: #f8b150;
+}
+
+#content h3 {
+	color: #ea4800;
+	font-weight: bold;
+}
+
+ul.none li {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+#footer_terms {
+width: 90%; bottom:0px; left: 0px; position: absolute; height: 10px;
+}
+
+#footer_terms h1 {
+	padding: 100px 0px 0px 0px; color: #c6c6c6;
+	text-align:right;
+	border:0px;
+	font-variant:normal;font-size: 1em;font-weight: normal;
+	text-decoration:none;background: none;
+}
+
+#footer_terms a  { text-decoration: underline;}
+
+#footer_terms strong,#footer_terms a {
+	color: #c6c6c6;
+	font-weight: normal;
+	background: none;
+}
+
+#resol {
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	position:fixed;
+	font-size: 10px;
+	width:230px;
+	top:0px;
+	left:1280px;
+	margin:0 auto;
+	background:#bfc6d9;
+	text-align:center;
+}
+
+#resol h1 {
+	background:none;
+	font-size: 15px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border: 0px;
+}
+
+#resol h2 {
+	font-size:10px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	background:none;
+}

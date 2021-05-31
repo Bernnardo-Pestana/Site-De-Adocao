@@ -1,11 +1,13 @@
 {
 	"folders": [
 		{
-			"name": "Site-De-Adocao",
-			"path": "."
+			"path": "..\\..\\..\\Desktop\\Codigos\\Desenvolvimento_WEB\\Primerio_projeto_Udemy"
 		},
 		{
-			"path": "..\\..\\..\\Desktop\\Codigos\\Desenvolvimento_WEB\\Primerio_projeto_Udemy"
+			"path": "..\\Trab4"
+		},
+		{
+			"path": "..\\Site-De-Adocao_v2"
 		}
 	],
 	"settings": {}

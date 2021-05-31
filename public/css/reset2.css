@@ -1,0 +1,59 @@
+/* RESET BROWSER STYLES */
+
+* { margin: 0pt; padding: 0pt; }
+
+blockquote, q { quotes: "" ""; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+
+caption, th, td { font-weight: normal; text-align: left; }
+
+em { font-style: italic; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0pt none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0pt;
+	outline-color: invert;
+	outline-style: none;
+	outline-width: 0pt;
+	padding: 0pt;
+	vertical-align: baseline;
+}
+
+strong { font-weight: bold; }
+
+table { border-collapse: separate; border-spacing: 0pt; }
+
+form { margin: 0; padding: 0; }
+
+form label { cursor: pointer; }
+
+/* CLEARFIX FOR BOXMODEL */
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+/* Firefox Scrollbar Hack*/
+html {
+	margin-bottom: 1px;
+	height: 100%!important;
+	height: auto;
+}
