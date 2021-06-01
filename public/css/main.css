@@ -65,7 +65,7 @@ h1#logo {
 }
 
 #mainnav ul li a span {
-	color: black;
+	color: white;
 	font-weight: bold;
 	background: url(../images/bullet1.gif) 19px 50% no-repeat;
 	padding-left: 35px;
