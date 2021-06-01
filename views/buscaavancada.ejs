@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+    <link href="css/busca-avancada.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="s007">
+      <form method="POST" action="/resultado" >
+        <div class="inner-form">
+          <div class="basic-search">
+            <div class="input-field">
+              <div class="icon-wrap">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+                  <path d="M18.869 19.162l-5.943-6.484c1.339-1.401 2.075-3.233 2.075-5.178 0-2.003-0.78-3.887-2.197-5.303s-3.3-2.197-5.303-2.197-3.887 0.78-5.303 2.197-2.197 3.3-2.197 5.303 0.78 3.887 2.197 5.303 3.3 2.197 5.303 2.197c1.726 0 3.362-0.579 4.688-1.645l5.943 6.483c0.099 0.108 0.233 0.162 0.369 0.162 0.121 0 0.242-0.043 0.338-0.131 0.204-0.187 0.217-0.503 0.031-0.706zM1 7.5c0-3.584 2.916-6.5 6.5-6.5s6.5 2.916 6.5 6.5-2.916 6.5-6.5 6.5-6.5-2.916-6.5-6.5z"></path>
+                </svg>
+              </div>
+              <input id="search" type="text" placeholder="Pesquise..." />
+              <div class="result-count">
+                <span>108 </span>results</div>
+            </div>
+          </div>
+          <div class="advance-search">
+            <span class="desc"> Pesquisa Avançada </span>
+           
+            <div class="row">
+              <div class="input-field" name="tipo">
+
+                <div class="input-select" name="tipo">
+                  <select name="tipo">
+                    <option placeholder="" value="-">Tipo</option>
+                    <option name="tipo" value = "gato">Gato</option>
+                    <option name="tipo" value = "cachorro">Cachorro</option>
+                    <option name="tipo" value = "outro">Outro</option>
+                  </select>
+                </div>
+
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Estado</option>
+                   
+<option value="Acre">01- Acre</option>
+<option value="Alagoas">02- Alagoas</option>
+<option value="Amapá">03- Amapá</option>
+<option value="Amazonas">04- Amazonas</option>
+<option value="Bahia">05- Bahia</option>
+<option value="Ceará">06- Ceará</option>
+<option value="Distrito Federal">07- Distrito Federal</option>
+<option value="Espírito Santo">08- Espírito Santo</option>
+<option value="Goiás">09- Goiás</option>
+<option value="Maranhão">10- Maranhão</option>
+<option value="Mato Grosso">11- Mato Grosso</option>
+<option value="Mato Grosso do Sul">12- Mato Grosso do Sul</option>
+<option value="Minas Gerais">13- Minas Gerais</option>
+<option value="Pará">14- Pará</option>
+<option value="Paraíba">15- Paraíba</option>
+<option value="Paraná">16- Paraná</option>
+<option value="Pernambuco">17- Pernambuco</option>
+<option value="Piauí">18- Piauí</option>
+<option value="Rio de Janeiro">19- Rio de Janeiro</option>
+<option value="Rio Grande do Sul">20- Rio Grande do Sul</option>
+<option value="Rio Grande do Norte">21- Rio Grande do Norte</option>
+<option value="Rondônia">22- Rondônia</option>
+<option value="Roraima">Roraima</option>
+<option value="Santa Catarina">Santa Catarina</option>
+<option value="São Paulo">São Paulo</option>
+<option value="Sergipe">Sergipe</option>
+<option value="Tocantins">Tocantins</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value=""> Porte </option>
+                    <option>Pequeno</option>
+                    <option>Medio</option>
+                    <option>Grande</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row second">
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Sexo</option>
+                    <option>2- Masculino</option>
+                    <option>1- Feminino </option>
+                    <option>3- Ambos</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Saúde</option>
+                    <option>1- Vacinado</option>
+                    <option>2- Castrado</option>
+                    <option>3- SEM </option>
+                  </select>
+                </div>
+              </div>
+             
+            </div>
+            <div class="row third">
+              <div class="input-field">
+                <button  class="btn-search">Buscar</button>
+                <button class="btn-delete" id="delete">Apagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    
+    <script src="js/extention/choices.js"></script>
+    <script>
+      const customSelects = document.querySelectorAll("select");
+      const deleteBtn = document.getElementById('delete')
+      const choices = new Choices('select',
+      {
+        searchEnabled: false,
+        removeItemButton: true,
+        itemSelectText: '',
+      });
+      for (let i = 0; i < customSelects.length; i++)
+      {
+        customSelects[i].addEventListener('addItem', function(event)
+        {
+          if (event.detail.value)
+          {
+            let parent = this.parentNode.parentNode
+            parent.classList.add('valid')
+            parent.classList.remove('invalid')
+          }
+          else
+          {
+            let parent = this.parentNode.parentNode
+            parent.classList.add('invalid')
+            parent.classList.remove('valid')
+          }
+        }, false);
+      }
+      deleteBtn.addEventListener("click", function(e)
+      {
+        e.preventDefault()
+        const deleteAll = document.querySelectorAll('.choices__button')
+        for (let i = 0; i < deleteAll.length; i++)
+        {
+          deleteAll[i].click();
+        }
+      });
+
+    </script>
+
+
+
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
