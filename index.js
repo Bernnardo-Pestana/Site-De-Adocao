@@ -58,9 +58,9 @@ app.post("/resultado",(req,res)=>
     
 })
 
-app.get("/buscasimples",(req,res)=>
+app.get("/busca",(req,res)=>
 {
-    res.render("buscasimples.ejs");
+    res.render("busca.ejs");
     
 })
 
