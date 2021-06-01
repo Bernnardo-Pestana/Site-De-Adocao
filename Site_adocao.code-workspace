@@ -1,20 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "..\\..\\..\\Desktop\\Codigos\\Desenvolvimento_WEB\\Primerio_projeto_Udemy"
-		},
-		{
-<<<<<<< HEAD
-			"path": "..\\..\\..\\Desktop\\Codigos\\Desenvolvimento_WEB\\Primerio_projeto_Udemy"
-		},
-		{
-			"path": "..\\Trab4"
-=======
-			"path": "..\\Trab4"
-		},
-		{
-			"path": "..\\Site-De-Adocao_v2"
->>>>>>> fa8ac051c1aa72e8113dfe05257f24d6fbc8ae26
+			"path": "."
 		}
 	],
 	"settings": {}
