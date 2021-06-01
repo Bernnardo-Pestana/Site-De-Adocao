@@ -3,6 +3,7 @@
 body {
   font-family: sans-serif;
   background-color: white ;
+  border :  black;
 
 }
 
@@ -238,7 +239,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 #adocao
 {
- background-color: blueviolet;
+ background-color: white;
  width: 656px;
  height: 698px;
 
@@ -247,34 +248,33 @@ input[type=number]::-webkit-outer-spin-button {
 {
 margin-top: 15px;
 text-align: center;
-background-color: red;
-border: 3px solid #fbfbfb;
+background-color: white;
+border: 3px solid black;
 width: 150px;
-height: 100px;
+height: 150px;
 margin-left: 25px;
 
 }
 #idade
 {
-  margin-top: 15px;
+  margin-top: 25px;
   text-align: center;
-  background-color: green;
-  border: 3px solid #73AD21;
-  width: 150px;
-  height: 150px;
+  background-color: white;
+  border: 3px solid black;
+ 
   margin-left: 25px;
-  
+
 }
 
 #raca
 {
-margin-top: 15px;
+margin-top: 55px;
 text-align: center;
-background-color: blue;
-border: 3px solid #fbfbfb;
+background-color: white;
+border: 3px solid white;
 width: 200px;
 height: 75px;
-margin-left: 15px;
+margin-left: 95px;
 }
 
 
@@ -282,16 +282,17 @@ margin-left: 15px;
 
 #caracteristicas
 {
-    width: 550px;
+
+    width: 600px;
     padding: 12px 10px;
     margin: 8px 10px;
     box-sizing: border-box;
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 
 #rac_ca{
-  background-color: chocolate;
+  background-color: white;
   width: 330px;
   height: 350px;
   float: left;
@@ -300,14 +301,14 @@ margin-left: 15px;
 }
 #tip_id
 {
-  background-color: coral;
+  background-color: white;
   width: 250px;
   height: 350px;
   float: left;
   margin-top: 15px;
   margin-left: 30px;
-  
-    
+
+
 }
 textarea
 {
@@ -318,16 +319,17 @@ textarea
 
 #foto
 {
-  width: 600px;
-  height: 270px;
-  background-color: blue;
-  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-top: 30px;
   float: left;
-  margin-left: 30px;
+  margin-left:380px;
+  float : left;
 }
 
 
-form{
+#formulario{
   top: 50%;
   left: 50%;
   margin-top: 75px;
@@ -335,8 +337,9 @@ form{
   width: 200px;
   height: 200px;
   border: 4px dashed rgb(112, 112, 112);
+ 
 }
-form p{
+#formulario p{
   width: 100%;
   height: 100%;
   text-align: center;
@@ -344,7 +347,7 @@ form p{
   color: #000000;
   font-family: Arial;
 }
-form input{
+#formulario input{
   position: absolute;
   margin: 0;
   padding: 0;
@@ -353,7 +356,7 @@ form input{
   outline: none;
   opacity: 0;
 }
-form button{
+#formulario button{
   margin: 0;
   color: #fff;
   background: #16a085;
@@ -368,11 +371,15 @@ form button{
   transition: all .2s ease;
   outline: none;
 }
-form button:hover{
+#formulario button:hover{
   background: #149174;
     color: #0C5645;
 }
-form button:active{
+#formulario  button:active{
   border:0;
 }
 
+#botao{
+  float:  left;
+  margin-left:  150px;
+}
