@@ -1,8 +1,9 @@
 const Sequelize = require("sequelize");
+const client = require("./database");
 
-const connection = require("./database");
 
-const Anuncios = connection.define('anuncio',
+
+const Anuncios = client.define('anuncio',
 {
     Raca : 
         {
