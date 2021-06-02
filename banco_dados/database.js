@@ -9,7 +9,7 @@ const connection = new Sequelize({
   
 });
 
-connection.connect();
+
 
 connection.query('SELECT table_schema,table_name FROM information_schema.tables;', (err, res) => {
   if (err) throw err;
