@@ -15,6 +15,14 @@
     "pg": "^8.6.0",
     "sequelize": "^6.6.2"
   },
+
+  "production": {
+    "username": "lyhemezrtjahwf",
+    "password": "ee434204833bfb1955e21926a17ffe244f08474cebdc30d1f225a0d74cbcbce7",
+    "database": "DATABASE_URL",
+    "dialect": "postgres"
+  },
+
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
